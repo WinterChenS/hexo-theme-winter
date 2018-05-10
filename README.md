@@ -1,37 +1,37 @@
-## Attention: A more beautiful and powerful theme for Hexo is now online. - [Hueman](https://github.com/ppoffice/hexo-theme-hueman)
+## Attention: A more beautiful and powerful theme for Hexo is now online. - [winter](https://github.com/WinterChenS/hexo-theme-winter)
 
-#Alex
+# winter
 
 A very simple, elegant and responsive theme for [Hexo].
 
-![](http://ppoffice.github.io/hexo-theme-alex/gallery/preview.jpg "Preview")
+![](http://ozlpw4ja9.bkt.clouddn.com/WX20180510-100603@2x.png)
 
-- [Preview](http://ppoffice.github.io/hexo-theme-alex/)
+- [Preview](https://blog.winterchen.com/)
 
 ## Installation
 
 ### Install
 
-``` bash
-$ git clone git://github.com/ppoffice/hexo-theme-alex.git themes/alex
+```bash
+$ git clone git@github.com:WinterChenS/hexo-theme-winter.git
 ```
 
 **Alex requires Hexo 2.4 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `Alex`.
+Modify `theme` setting in `_config.yml` to `winter`.
 
 ### Update
 
-``` bash
-cd themes/Alex
+```bash
+cd themes/winter
 git pull
 ```
 
 ## Configuration
 
-``` yml
+```yml
 # Header
 menu:
   Home: /
@@ -108,8 +108,3 @@ All of them are enabled by default. You can edit them in `widget` setting.
 - **fontawesome** - Only download [Font Awesome].
 - **fancybox** - Only download [Fancybox].
 - **clean** - Clean temporarily files and downloaded files.
-
-[Hexo]: http://zespia.tw/hexo/
-[Fancybox]: http://fancyapps.com/fancybox/
-[Font Awesome]: http://fontawesome.io/
-[Grunt]: http://gruntjs.com/
