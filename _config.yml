@@ -1,0 +1,35 @@
+# Header
+menu:
+  Home: http://winterchen.com
+  Photo: http://photo.winterchen.com
+  Blog: /
+  Archives: /archives
+  About: http://winterchen.com/about.html
+rss: 
+github: https://github.com/WinterChenS
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: left
+widgets:
+- category
+- archive
+- recent_posts
+- tag
+- tagcloud
+- links
+
+# Links
+links: 
+  Hexo: http://hexo.io
+
+# Miscellaneous
+google_analytics:
+favicon: http://ozlpw4ja9.bkt.clouddn.com/favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
