@@ -34,11 +34,15 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
-
-<% if (!index && post.comments && config.disqus_shortname){ %>
+<% if (!index && post.comments) { %>
+<% if (theme.changyan.enable && theme.changyan.appid && theme.changyan.appkey){ %>
 <section id="comments">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
+    <div id="SOHUCS"></div>
 </section>
+<% } %>
+<% if (theme.gitment.enable && theme.gitment.client_id) { %>
+<section id="comments">
+<div id="gitment-comments"></div>
+</section>
+<% } %>
 <% } %>
