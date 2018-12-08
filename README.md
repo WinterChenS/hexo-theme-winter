@@ -4,7 +4,7 @@
 
 A very simple, elegant and responsive theme for [Hexo].
 
-![](http://ozlpw4ja9.bkt.clouddn.com/WX20180510-100603@2x.png)
+![](http://img.winterchen.com/WX20180510-100603@2x.png)
 
 - [Preview](https://blog.winterchen.com/)
 
